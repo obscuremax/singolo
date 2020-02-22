@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 1020px;
+}
+.header {
+	background: #2d303a;
+	height: 89px;
+	border-bottom: 6px solid #323746;
+}
+
+.flex {
+	display: flex;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.flex_jc_sb {
+	justify-content: space-between;
+}
+
+.aline-items_center {
+	align-items: center;
+}
+
+.nav_ul {
+	list-style-type: none;
+}
+
+.nav_li {
+	display: inline;
+	color: white;
+	text-transform: uppercase;
+	margin-left: 30px;
+}
+
+.nav_li:hover {
+	color: #f06c64;
+	cursor: pointer;
+}
