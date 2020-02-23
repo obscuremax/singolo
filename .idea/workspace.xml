@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e942cee-4d93-4137-bf24-36639d8b9f68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/img/phone-g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/phone-v.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fon_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/fon_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/phone_g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/phone_v.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.html" afterDir="false" />
     </list>
@@ -52,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582368869094</updated>
-      <workItem from="1582368870353" duration="6323000" />
+      <workItem from="1582368870353" duration="12912000" />
     </task>
     <servers />
   </component>
