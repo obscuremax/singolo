@@ -65,18 +65,20 @@ body {
 .header_logo{
 	margin-top: -1px;
 }
-.header_logo_text{
-	line-height: 19px;
-	color: white;
-	font-size: 24px;
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
-}
+
 .header_logo_star {
 	color: #f06c64;
 	font-size: 24px;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
+}
+h1{
+	line-height: 19px;
+	color: white;
+	font-size: 24px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	display: inline;
 }
 .nav_li {
 	display: inline;

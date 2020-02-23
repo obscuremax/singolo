@@ -2,14 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e942cee-4d93-4137-bf24-36639d8b9f68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Lato-Regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo1.css" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/singolo1.html" beforeDir="false" afterPath="$PROJECT_DIR$/singolo1.html" afterDir="false" />
@@ -35,11 +27,12 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\The Rolling Scopes School\singolo" />
       <recent name="D:\The Rolling Scopes School\singolo\assets\fonts" />
     </key>
   </component>
@@ -65,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582368869094</updated>
-      <workItem from="1582368870353" duration="26584000" />
+      <workItem from="1582368870353" duration="27649000" />
     </task>
     <servers />
   </component>
