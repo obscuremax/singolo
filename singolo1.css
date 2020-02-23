@@ -121,6 +121,8 @@ h1{
 	width: 300px;
 	margin-right: 20px;
 	margin-bottom: 33px;
+	overflow: hidden;
+	height: 90px;
 }
 .our_services_item_img{
 	margin-right: 20px;
