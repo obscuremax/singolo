@@ -173,3 +173,136 @@ h3{
 	border-bottom: 6px solid #ffffff;
 	height: 493px;
 }
+.portfolio{
+	background: #2d303a;
+	height: 864px;
+	border-bottom: 6px solid #323746;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+.portfolio_title h3, .about_us_title h3{
+	padding-top: 69px;
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 17.86px;
+	color: #666d89;
+	letter-spacing: 0.3px;
+}
+
+.portfolio_title p, .about_us_title p{
+	padding-top: 28px;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 30px;
+	color: #767e9e;
+	letter-spacing: -0.21px;
+}
+.portfolio_nav_border{
+	padding: 3px 6px;
+	border: 1px solid #666d89;
+	border-radius: 5px;
+
+}
+.portfolio_nav{
+	padding-bottom: 18px;
+	padding-top: 11px;
+}
+.portfolio_nav span:first-child{
+	margin-left: 1px;
+}
+.portfolio_nav span{
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 21.56px;
+	color: #666d89;
+	margin-right: 10px;
+
+}
+.portfolio_nav span:hover{
+	color: #dedede;
+	border-color: #dedede;
+	cursor: pointer;
+}
+.portfolio_images{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 1px;
+	height: 610px;
+	overflow: hidden;
+}
+.portfolio_images img{
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+}
+
+.portfolio_images img:nth-child(4n){
+	margin-right: 0;
+}
+
+.about_us{
+	height: 728px;
+	background: #f2f2f2;
+	border-bottom: 6px solid #ffffff;
+}
+.about_us_title p{
+	text-align: justify;
+	padding-top: 26px;
+}
+.card{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin-right: 20px;
+	overflow: hidden;
+}
+.card:last-child{
+	margin-right: 0;
+}
+.cards_container{
+	margin-top: 46px;
+	display: flex;
+}
+.card_info h4{
+	font-family: "Lato", sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	line-height: 17.86px;
+	color: #666d89;
+	padding: 19px 0;
+	margin-top: -7px;
+	width: max-content;
+}
+.card_info p{
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 21.56px;
+	color: #767e9e;
+	text-align: justify;
+	margin-top: -8px;
+	letter-spacing: -0.15px;
+}
+
+.card_social{
+	margin-top: 23px;
+}
+
+.card_social img{
+	margin-right: 4px;
+}
+
+.card_social img:hover{
+	background: #5d9ded;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.about_us_title h3{
+	letter-spacing: -0.1px;
+}
