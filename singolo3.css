@@ -185,6 +185,7 @@ body {
 	padding-top: 7px;
 	letter-spacing: -0.07px;
 	height: 202px;
+	resize: none;
 }
 .contacts_info .quote1 img{
 	margin-left: 4px;
@@ -207,4 +208,55 @@ body {
 }
 .contacts_info .quote3 p{
 	margin-top: 2px;
+}
+.form_container .submit{
+	background: #f48c8f;
+	display: block;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 0 auto;
+}
+.form_container .submit:hover{
+	cursor: pointer;
+	background: #666d89;
+}
+.contacts_container a{
+	text-decoration: none;
+	color: #f0d8d9;
+}
+footer{
+	background: #2d303a;
+	height: 76px;
+}
+.footer_nav img{
+	margin-left: 4px;
+}
+.footer_container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 22px;
+}
+.footer_title p span{
+	margin: 0 2px;
+}
+.footer_title p span:first-child{
+	margin-left: 2px;
+}
+.footer_title p{
+	font-family: "Lato", sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 6.32px;
+	color: #666d89;
+	letter-spacing: -0.18px;
+}
+.footer_title{
+	margin-top: -5px;
+}
+.footer_nav img:hover{
+	background: #5d9ded;
+	border-radius: 50%;
+	cursor: pointer;
 }
