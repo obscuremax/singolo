@@ -88,13 +88,23 @@ h1{
 	font-weight: bold;
 	line-height: 6px;
 }
+.nav_li a{
+	color: white;
+	text-decoration: none;
+}
+.nav_li .active{
+	color: #f06c64;
+}
+.nav_li a:not(.active):hover{
+	color: yellow;
+}
 .delimiter{
 	color: #494e62
 }
-.action:hover {
-	color: #f06c64;
-	cursor: pointer;
-}
+/*.action:hover {*/
+/*	color: #f06c64;*/
+/*	cursor: pointer;*/
+/*}*/
 .section_slider{
 	border-bottom: 6px solid #ea676b;
 	background: #f06c64;
