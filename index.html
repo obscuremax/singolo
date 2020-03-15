@@ -217,16 +217,16 @@
 		</div>
 		<div class="get_quote_container">
 			<div class="form_container">
-				<form action="" method="post">
+				<form action="" method="post" id="form">
 					<div class="input_container">
-						<input class="name" placeholder="Name (Required)" type="text" required>
-						<input class="email" placeholder="Email (Required)" type="email" required>
-						<input class="subject" placeholder="Subject" type="text">
+						<input class="name" placeholder="Name (Required)" type="text" required id="name">
+						<input class="email" placeholder="Email (Required)" type="email" required id="email">
+						<input class="subject" placeholder="Subject" type="text" id="subject">
 					</div>
 					<div class="textarea_container">
-						<textarea placeholder="Describe your project in detail..." name="text" id="www" cols="30" rows="10"></textarea>
+						<textarea placeholder="Describe your project in detail..." name="text" id="www" cols="30" rows="10" ></textarea>
 					</div>
-					<input class="submit" type="submit" value="Send">
+					<input class="submit" type="submit" value="Send" id="send">
 				</form>
 			</div>
 			<div class="contacts_container">
@@ -250,6 +250,14 @@
 				</div>
 			</div>
 		</div>
+	</div>
+	<div class="send_container none" id="hidden">
+		<div class="text_container">
+			<div>Письмо отправлено</div>
+			<div class="text_subject" id="text_subject"></div>
+			<div class="text_describe" id="text_describe"></div>
+		</div>
+		<button class="send_ok" id="closeBtn">OK</button>
 	</div>
 </section>
 <footer>

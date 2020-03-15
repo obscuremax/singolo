@@ -569,3 +569,33 @@ footer{
 	z-index: 15;
 	top: 300px;
 }
+.send_container{
+	background: grey;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 1020px;
+	height: 100%;
+	opacity: 0.95;
+	z-index: 100;
+}
+.text_container{
+	display: flex;
+	justify-content: center;
+	background: aqua;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: 100px;
+	min-height: 100px;
+	flex-direction: column;
+}
+
+.send_ok{
+	display: block;
+	margin: 0 auto;
+	width: 70px;
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 10px;
+}
