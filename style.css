@@ -124,14 +124,14 @@ h1{
 }
 .phone_slide1{
 	background: #f06c64;
-	z-index: 2;
+	z-index: 10;
 }
 .phone_slide2{
 	background: #648BF0;
-	z-index: 1;
+	z-index: 5;
 }
 .toogle{
-	z-index: 0;
+	z-index: 20;
 }
 .toogle_section{
 	background: #648BF0;
@@ -541,4 +541,25 @@ footer{
 	background: #5d9ded;
 	border-radius: 50%;
 	cursor: pointer;
+}
+.black_g, .black_v{
+	background: black;
+	position: absolute;
+}
+.none{
+	display: none;
+}
+.black_v{
+	width: 189px;
+	height: 335px;
+	left: 168px;
+	z-index: 15;
+	top: 229px;
+}
+.black_g{
+	width: 335px;
+	height: 189px;
+	left: 474px;
+	z-index: 15;
+	top: 300px;
 }
