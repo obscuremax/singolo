@@ -246,9 +246,17 @@ h3{
 	color: #666d89;
 	margin-right: 10px;
 }
-.portfolio_nav span:hover{
-	color: #dedede;
-	border-color: #dedede;
+
+.portfolio_nav .active{
+	color: white;
+	border: 1px solid white;
+}
+/*.nav_li a:{*/
+/*	color: yellow;*/
+/*}*/
+.portfolio_nav span:not(.active):hover{
+	color: yellow;
+	border-color: yellow;
 	cursor: pointer;
 }
 .portfolio_images{
