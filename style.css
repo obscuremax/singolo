@@ -251,9 +251,7 @@ h3{
 	color: white;
 	border: 1px solid white;
 }
-/*.nav_li a:{*/
-/*	color: yellow;*/
-/*}*/
+
 .portfolio_nav span:not(.active):hover{
 	color: yellow;
 	border-color: yellow;
@@ -267,12 +265,12 @@ h3{
 	overflow: hidden;
 }
 .portfolio_images img{
-	margin-right: 20px;
+	margin: auto;
 	margin-bottom: 20px;
-
 }
-.portfolio_images img:nth-child(4n){
-	margin-right: 0;
+
+.active_img{
+	border: 5px solid #F06C64;
 }
 .about_us{
 	height: 728px;

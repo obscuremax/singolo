@@ -9,8 +9,7 @@ const phone_g = document.getElementById("phone_g")
 const black_v = document.getElementById("black_v")
 const black_g = document.getElementById("black_g")
 const portfolio_nav = document.getElementById("portfolio_nav")
-
-
+const divImages = document.getElementById("images")
 
 menu.addEventListener("click", (event)=>{
 	menu.querySelectorAll("a").forEach(el => el.classList.remove("active"))
@@ -28,7 +27,6 @@ portfolio_nav.addEventListener("click", (event)=>{
 	images.forEach((el,index) => index === 0? newArr.push(el.outerHTML):"")
 	divImages.innerHTML = newArr.join("")
 })
-
 
 left.addEventListener("click", ()=>{
 	slide2.classList.toggle("toogle")
@@ -50,4 +48,12 @@ black_v.addEventListener("click", ()=>{
 })
 black_g.addEventListener("click", ()=>{
 	black_g.classList.toggle("none")
+})
+
+divImages.addEventListener("click",  (event) => {
+	divImages.querySelectorAll('#images img').forEach(el=>el.classList.remove("active_img"))
+	console.log(event.target)
+	if (event.target.hasAttribute("alt")) {
+		event.target.classList.add("active_img")
+	}
 })
