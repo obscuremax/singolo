@@ -599,3 +599,102 @@ footer{
 	border: none;
 	margin-top: 10px;
 }
+
+.portfolio_images img::before{
+	content: "";
+	float: left;
+	padding-top: 100%;
+}
+
+@media (max-width: 1019px) {
+	body {
+		width: 768px;
+	}
+	.container {
+		width: 688px;
+		margin: 0 auto;
+	}
+	.slider{
+		height: 447.25px;
+	}
+	.phone_slide1, .phone_slide2{
+		width: 599.48px;
+		height: 363.74px;
+		top: 135.59px;
+		left: 81.19px;
+	}
+	#phone_v{
+		width: 180.71px;
+		height: 363.67px;
+		margin-left: 38.39px;
+	}
+	#phone_g{
+		height: 180.71px;
+		width: 363.67px;
+		margin-right: 41.46px;
+	}
+	.phone_small-img_left, .phone_small-img_right{
+		width: 120.71px;
+		height: 180.67px;
+	}
+	.phone_big-img{
+		width: 120.71px;
+		height: 180.67px;
+	}
+	.our_services_item{
+		margin-right: 53px;
+	}
+
+	.our_services_item:nth-child(2n){
+		margin-right: 0;
+	}
+	.our_services_item:nth-child(3){
+		margin-right: 53px;
+	}
+	.our_services{
+		height: 660px;
+	}
+	.portfolio_images{
+		height: 800px;
+	}
+	.portfolio_images img{
+		margin: auto;
+		margin-bottom: 20px;
+		width: 216.19px;
+		height: 183.76px;
+	}
+	.portfolio{
+		height: 1050px;
+	}
+
+	.card{
+		width: 218.94px;
+		margin-right: 14.6px;
+	}
+	.card:last-child{
+		margin-right: 0;
+	}
+	.cards_container{
+		margin-top: 46px;
+		display: flex;
+	}
+	.card_img img{
+		width: 218.94px;
+		height: 218.94px;
+	}
+	.about_us {
+		height: 680px;
+	}
+	.form_container,
+	.form_container #name,
+	.form_container #email,
+	.form_container #subject,
+	.form_container textarea{
+		width: 442px;
+	}
+	.get_quote {
+		height: 675px;
+	}
+
+}
+
