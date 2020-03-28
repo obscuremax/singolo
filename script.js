@@ -13,6 +13,10 @@ const send = document.getElementById("send")
 const closeBtn = document.getElementById("closeBtn")
 const div = document.getElementById("hidden")
 const form = document.getElementById("form")
+const burger = document.getElementById("burger")
+const navContainer = document.getElementById("nav-container")
+const nav = document.getElementById("nav")
+const navLi = document.querySelectorAll("#menu li")
 
 form.addEventListener("submit", (event) => {
 	event.preventDefault()
@@ -37,9 +41,20 @@ closeBtn.addEventListener("click", () => {
 	form.reset()
 })
 
+burger.addEventListener("click", (event)=>{
+	burger.classList.toggle("rotate")
+	menu.classList.toggle("active_menu_ul")
+	nav.classList.toggle("active_menu_nav")
+	navLi.forEach(el => el.classList.toggle("active_menu_li"))
+})
+
 menu.addEventListener("click", (event) => {
 	menu.querySelectorAll("a").forEach(el => el.classList.remove("active"))
 	event.target.classList.add("active")
+	burger.classList.toggle("rotate")
+	menu.classList.toggle("active_menu_ul")
+	nav.classList.toggle("active_menu_nav")
+	navLi.forEach(el => el.classList.toggle("active_menu_li"))
 })
 
 portfolio_nav.addEventListener("click", (event) => {
@@ -88,3 +103,6 @@ divImages.addEventListener("click", (event) => {
 		event.target.classList.add("active_img")
 	}
 })
+
+
+

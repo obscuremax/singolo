@@ -605,6 +605,20 @@ footer{
 	float: left;
 	padding-top: 100%;
 }
+.burger{
+	display: none;
+	cursor: pointer;
+}
+.line{
+	width: 25px;
+	height: 3px;
+	margin: 5px;
+	background-color: white;
+}
+
+
+
+
 
 @media (max-width: 1019px) {
 	body {
@@ -696,5 +710,161 @@ footer{
 		height: 675px;
 	}
 
+}
+
+@media (max-width: 767px) {
+	body {
+		width: 375px;
+	}
+	.section_slider .container {
+		width: 355px;
+		margin: 0 auto;
+	}
+	.slider{
+		height: 218.38px;
+	}
+	.phone_slide1, .phone_slide2{
+		width: 292.72px;
+		height: 177.61px;
+		top: 117px;
+		left: 41.11px;
+	}
+	#phone_v{
+		width: 88.24px;
+		height: 177.57px;
+		margin-left: 16.85px;
+	}
+	#phone_g{
+		height: 88.24px;
+		width: 177.57px;
+		margin-right: 18px;
+	}
+	.phone_small-img_left, .phone_small-img_right{
+		width: 80px;
+		height: 100px;
+	}
+	.phone_big-img{
+		width: 100px;
+		height: 120px;
+	}
+	.nav{
+		display: none;
+	}
+	.header_logo{
+		margin: 0 auto;
+	}
+	.container {
+		width: 314px;
+		margin: 0 auto;
+	}
+	.our_services_item{
+		margin-right: 0;
+	}
+	.our_services{
+		height: 1070px;
+	}
+
+	.portfolio_images{
+		height: 530px;
+	}
+	.portfolio_images img{
+		margin: auto;
+		margin-bottom: 5px;
+		width: 151px;
+		height: 128px;
+	}
+	.portfolio{
+		height: 810px;
+	}
+
+
+
+	.card{
+		width: 314px;
+		margin-top: 34px;
+	}
+	.card:first-child{
+		margin-top: 0;
+	}
+	.cards_container{
+		margin-top: 46px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.card_img img{
+		width: 314px;
+		height: 314px;
+	}
+	.about_us {
+		height: 1840px;
+	}
+
+
+
+	.form_container,
+	.form_container #name,
+	.form_container #email,
+	.form_container #subject,
+	.form_container textarea{
+		width: 315px;
+	}
+	#send{
+		width: 100%;
+	}
+	.get_quote {
+		height: 1030px;
+	}
+	.get_quote_container {
+		flex-wrap: wrap;
+	}
+
+	.footer_title{
+		display: none;
+	}
+	.footer_nav{
+		margin: 0 auto;
+	}
+
+	.burger{
+		display: block;
+	}
+	.rotate{
+		transform: rotate(90deg);
+	}
+
+
+
+	.active_menu_nav{
+		position: absolute;
+		top: 80px;
+		display: flex;
+		background-color: #2d303a;
+		z-index: 40;
+		width: 280px;
+		left: 0;
+		height: 100vh;
+	}
+
+	.active_menu_ul{
+		list-style-type: none;
+		margin-top: 150px;
+		display: flex;
+		flex-direction: column;
+		z-index: 50;
+		margin-left: 70px;
+	}
+	.active_menu_li{
+		display: inline;
+		color: white;
+		margin-left: 8.5px;
+		font-family: 'Lato', sans-serif;
+		font-size: 12px;
+		font-weight: bold;
+		line-height: 6px;
+		margin-bottom: 20px;
+	}
+	.delimiter{
+		color: #2d303a
+	}
 }
 
